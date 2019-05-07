@@ -9,7 +9,7 @@ class Formulario extends Component{
     planBasicoRef = React.createRef();
     planCompletoRef = React.createRef();
 
-    cotizarSeguro=(e) => {
+    cotizarSeguro =(e) => {
         e.preventDefault();
 
         //leer el plan
